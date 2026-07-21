@@ -6,7 +6,7 @@ TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
 CHAT_ID = "@ii_na_skladah"
 QUEUE_FILE = "queue.txt"
 SEPARATOR = "\n---\n"
-IMAGES_DIR = "images"
+IMAGES_DIR = ""
 
 def main():
     if not os.path.exists(QUEUE_FILE):
