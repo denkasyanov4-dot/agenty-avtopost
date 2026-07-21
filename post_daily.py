@@ -3,7 +3,7 @@ import sys
 import requests
 
 TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
-CHAT_ID = "@agenty_na_zarplate"
+CHAT_ID = "@ii_na_skladah"
 QUEUE_FILE = "queue.txt"
 SEPARATOR = "\n---\n"
 
